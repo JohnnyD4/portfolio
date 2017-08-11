@@ -215,15 +215,22 @@ hr.small {
     height: 220px;
 }
 
-.img-portfolio:hover {
-    opacity: 0.8;
+.portfolio-item:hover .img-portfolio{
+    /*background: rgba(220, 20, 20, .5);*/
+    opacity: 0.15;
     
 }
+
+.portfolio-item:hover #imgTitle{
+    display: block;
+    opacity: 1;
+}
+
 #imgTitle {
     position: absolute;
     bottom: 50%;
     text-align: center;
-    color: white;
+    color: black;
     width: 100%;
     display: none;
 }
